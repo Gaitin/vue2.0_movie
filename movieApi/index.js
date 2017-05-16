@@ -19,9 +19,9 @@ app.all('*', function(req, res, next) {
     next();
 });
 
-app.get('/', function (req, res) {
-    res.send('aaa')
-});
+// app.get('/', function (req, res) {
+//     res.send('接口访问')
+// });
 
 app.get('/getMovieList', function (req, res) {
     console.log(req.query);
